@@ -1,0 +1,26 @@
+html {
+    background-image: url(../images/mermaidlogo.png);
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+}
+head {}
+title {}
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(2, 182, 250, .3);
+}
+main{}
+header {}
+h1 {}
+p {}
+form {}
+ul {}
+li {}
+h2 {}
+label {}
+textarea {}
+button {}
