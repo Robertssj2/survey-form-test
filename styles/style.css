@@ -1,20 +1,22 @@
 img {}
 html {
     /*background-image: url(../images/mermaidlogo.png);
-    background-size: 100% 100%;
-    background-repeat: repeat-y;*/
-    align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;*/
 }
 head {}
 title {}
 body {}
-main{}
+main{
+    text-align: center;
+}
 header {}
 h1 {}
 p {}
 form {
+    text-align: justify;
     padding: 15px;
-    margin: 1fr;
+    margin: auto;
     border: 0px;
     border-radius: 10px;
     background-color: rgba(2, 182, 250, .3);
@@ -48,4 +50,8 @@ h2 {
 }
 label {}
 textarea {}
-button {}
+button {
+    background-color: #00ff00;
+    color: white;
+    font-weight: bold;
+}
