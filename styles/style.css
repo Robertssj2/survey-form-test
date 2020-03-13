@@ -1,26 +1,31 @@
 img {}
 html {
-    background-image: url(../images/tunatail.png);
-    background-size: 100% auto;
-    background-repeat: repeat-y;
+    /*background-image: url(../images/tunatail.png);
+    background-size: 100%;
+    background-repeat: repeat-y;*/
 }
 head {}
 title {}
 body {
+    background-image: url(../images/tunatail.png);
+    background-size: 100%;
     /*background-color: rgba(2, 182, 250, .3);*/
 }
 main{
     text-align: center;
-    color: #1716A8;
+    /*color: #1716A8;*/color: white;
 }
 header {}
 h1 {
     font-size: 35px;
     font-weight: bold;
+    text-shadow: 0px 0px 5px rgb(9, 9, 95);
+
 }
 p {
     font-size: 20px;
     font-weight: bold;
+    text-shadow: 0px 0px 5px rgb(9, 9, 95);
 }
 form {
     text-align: justify;
@@ -52,9 +57,12 @@ form {
         width: 675px;
     }
 }
-ul {}
+ul {
+    list-style-type: none;
+}
 li {
     color: #FFFFFF;
+    text-shadow: 0px 0px 3px black;
 }
 h2 {
     font-size: 20px;
@@ -67,6 +75,7 @@ button {
     background-color: #00ff62;
     color: white;
     font-weight: bold;
+    text-shadow: 0px 0px 3px black;
 }
 
 #name {
