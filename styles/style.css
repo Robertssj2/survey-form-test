@@ -1,26 +1,51 @@
+img {}
 html {
-    background-image: url(../images/mermaidlogo.png);
+    /*background-image: url(../images/mermaidlogo.png);
     background-size: 100% 100%;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y;*/
+    align: center;
 }
 head {}
 title {}
-body {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(2, 182, 250, .3);
-}
+body {}
 main{}
 header {}
 h1 {}
 p {}
-form {}
+form {
+    padding: 15px;
+    margin: 1fr;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgba(2, 182, 250, .3);
+}
+@media (min-width: 350px) {
+    form {
+        width: 100%;
+        border-radius: 0px;
+    }
+    body {
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+    }
+}
+@media (min-width: 550px) {
+    form {
+        width: 475px;
+        border-radius: 10px;
+    }
+}
+@media (min-width: 900px) {
+    form {
+        width: 600px;
+    }
+}
 ul {}
 li {}
-h2 {}
+h2 {
+    font-size: 20px;
+}
 label {}
 textarea {}
 button {}
