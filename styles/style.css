@@ -58,10 +58,16 @@ form {
         width: 475px;
         border-radius: 10px;
     }
+    main {
+        padding: 20px 0px;
+    }
 }
 @media (min-width: 900px) {
     form {
         width: 675px;
+    }
+    main {
+        padding: 20px 0px;
     }
 }
 ul {
